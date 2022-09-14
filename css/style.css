@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap');
+body{
+    background-color: #181a1b;
+}
+.titulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+p,label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+#img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+.card{
+    width: 26rem;
+    margin-top: 15vh;
+   
+}
