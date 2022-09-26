@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
     <script src="jscript/jscript.js"></script>
-    <title>Conversor de Números</title>
+    <title></title>
     <script>
 
     </script>
@@ -24,18 +24,25 @@
                    
                         <form>
 
-                            <h2 style="margin-top: 25px;" class="titulo">Conversor de Decimal</h2>
+                            <h3 style="margin-top: 25px;" class="titulo">Conversor de Numeros</h1>
                             <img src="images/vetor.png" id="img">
                             <p>Digite um Numero para <br>converter para decimal ou binario</p><br>
 
-                            <Label>Valor:&nbsp;</Label><input type="number" placeholder="Digite o valor aqui"><br><br>
-                            <label>Converter para Binario</label> <input type="radio" onclick="binario()"
-                                style="margin-top: 15px;">
-                            <label>Converter para Decimal</label> <input type="radio" onclick="decimal()"
-                                style="margin-top: 15px;">
-                        </form>
-                </p>
-                <p>Resultado</p>
+                            <Label>Valor:&nbsp;</Label><input type="number" placeholder="Digite o valor aqui"
+                             id="numD" onkeypress="return  somenteNumeros()"> <br><br>
+                            <label>Converter para Binario</label> <input type="radio" 
+                                style="margin-top: 15px;" name="numeros" id="Bin" onclick="converterDec(this.value)"><br>
+                            <label>Converter para Decimal</label> <input type="radio" 
+                                style="margin-top: 15px;" name="numeros" id="Dec"onclick="converterBin(this.value)" ><br><br>
+                                
+                               
+                <p id="res">Resultado:</p>
+                <p id="res2"></p>
+                <button class="noselect"><span class="text">Limpar</span><span class="icon" onclick="limpar()">
+                    <img src="https://img.icons8.com/cotton/256/000000/trash--v2.png"/>
+                       </span></button>
+                             </form>
+                                </p>
             </div>
         </div>
 
