@@ -16,7 +16,7 @@ p,label{
     width: 20rem;
 }
 .card{
-    width: 25rem;
+    width: auto;
     margin-top: 10vh;
    
 }
