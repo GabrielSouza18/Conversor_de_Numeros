@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <script src="jscript/jscript.js"></script>
+    <title></title>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <center>
+        <div class="card">
+            <div class="card-body">
+                <p class="card-text">
+                   
+                        <form>
+
+                            <h3 style="margin-top: 25px;" class="titulo">Conversor de Numeros</h1>
+                            <img src="images/vetor.png" id="img">
+                            <p>Digite um Numero para <br>converter para decimal ou binario</p><br>
+
+                            <Label>Valor:&nbsp;</Label><input type="number" placeholder="Digite o valor aqui"
+                             id="numD" onkeypress="return  somenteNumeros()"> <br><br>
+                            <label>Converter para Binario</label> <input type="radio" 
+                                style="margin-top: 15px;" name="numeros" id="Bin" onclick="converterDec(this.value)"><br>
+                            <label>Converter para Decimal</label> <input type="radio" 
+                                style="margin-top: 15px;" name="numeros" id="Dec"onclick="converterBin(this.value)" ><br><br>
+                                
+                               
+                <p id="res">Resultado:</p>
+                <p id="res2"></p>
+                <button class="noselect"><span class="text">Limpar</span><span class="icon" onclick="limpar()">
+                    <img src="https://img.icons8.com/cotton/256/000000/trash--v2.png"/>
+                       </span></button>
+                             </form>
+                                </p>
+            </div>
+        </div>
+
+    </center>
+</body>
+
+</html>
